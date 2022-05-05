@@ -1,0 +1,114 @@
+/*html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.opacity_zero {
+  display: none;
+}*/
+body {
+  background-color: #EDEDED;
+  color: #0B2E58;
+  font-size: 16px;
+  font-family: "Kontora", Sans-serif;
+  line-height: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  margin-top: 0;
+}
+
+p {
+  margin-bottom: 16px;
+  margin-top: 0;
+}
+
+.tamms__btn--primary {
+  background-color: #22D861;
+  border-radius: 99px;
+  border: none;
+  color: #0B2E58;
+  cursor: pointer;
+  padding: 10px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.tamms__btn--secopndary {
+  background-color: #0B2E58;
+  border-radius: 99px;
+  border: none;
+  color: #FFFFFF;
+  cursor: pointer;
+  padding: 10px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.tamms__container {
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0 auto;
+  max-width: 540px;
+}
+
+.tamms__content-box {
+  background-color: #FFFFFF;
+  border-radius: 30px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tamms__content-box--header {
+  background-color: #0B2E58;
+  border-radius: 30px 30px 0 0;
+  padding: 24px;
+  text-align: center;
+}
+
+.tamms__content-box--body {
+  padding: 24px;
+}
+
+.tamms__drop-area {
+  border: 2px dashed #C4C4C4;
+  padding: 32px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.tamms__drop-area.highlight {
+  border-color: #22D861;
+}
+
+#fileUpload {
+  display: none;
+}
+
+#gallery {
+  margin-top: 10px;
+}
+
+#gallery img {
+  width: 150px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
